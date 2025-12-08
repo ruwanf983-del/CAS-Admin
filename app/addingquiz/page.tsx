@@ -310,7 +310,7 @@ export default function QuizForm() {
         teacherId: admin?._id,
         startDate: formatDate(startDate),
         endDate: formatDate(mainEndTime), // Use `mainEndTime` as `endDate`
-        guidelines: ["Guideline 1", "Guideline 2", "Guideline 3", "Guideline 4"], // Example guidelines
+        guidelines: ["Read all questions carefully before answering", "Manage your time effectively", "Once submitted, you cannot change your answers", "Do not refresh the page during the quiz"],
         questions: [], // Initialize as empty, will be filled based on type
       };
 
